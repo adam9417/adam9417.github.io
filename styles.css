@@ -1,0 +1,95 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+  display: block;
+  font-size: 2em;
+  margin-block-start: .67em;
+  margin-block-end: .67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: .083em;
+  margin-block-end: .83em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+table {
+  border: 2px solid darkblue;
+  width: 660px;
+  margin: 0 auto;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  text-align: start;
+  border-spacing: 2px;
+}
+
+thead {
+  display: table-header-group;
+  background-color: lightblue;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  border-top: 1px solid lightblue;
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.code {
+  font-family: monospace;
+  background-color: lightgreen;
+}
+
+footer {
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+
+.linkDesc {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .75em;
+  color: red;
+}
+
+.topicLink {
+  font-family: monospace;
+  background-color: lightgreen;
+  text-align: center;
+}
